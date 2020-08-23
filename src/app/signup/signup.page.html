@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="center">
+            {{ 'SIGNUP' | uppercase | translate}}
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding" id="signup">
+    <form class="list">
+        <ion-list>
+            <label class="item item-input">
+            <span class="input-label">{{ 'NAME' translate }}</span>
+            <input type="text" placeholder="">
+          </label>
+            <label class="item item-input">
+            <span class="input-label">{{ 'EMAIL' translate }}</span>
+            <input type="email" placeholder="">
+          </label>
+            <label class="item item-input">
+            <span class="input-label">{{ 'PASSWORD' translate }}</span>
+            <input type="text" placeholder="">
+          </label>
+        </ion-list>
+        <button class="button button-stable button-block">{{ 'SIGNUP' translate }}</button>
+    </form>
+</ion-content>

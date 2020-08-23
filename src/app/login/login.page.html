@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="center">
+            {{ 'LOGIN' | uppercase | translate}}
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding" id="login">
+    <form class="list">
+        <ion-list>
+            <label class="item item-input">
+            <span class="input-label">{{ 'EMAIL' | translate }}</span>
+            <input type="email" placeholder="">
+          </label>
+            <label class="item item-input">
+            <span class="input-label">{{ 'PASSWORD' | translate }}</span>
+            <input type="password" placeholder="">
+          </label>
+        </ion-list>
+        <div class="spacer" style="height: 40px;"></div>
+        <button class="button button-stable button-block">{{ 'LOGIN' | translate }}</button>
+        <a href-inappbrowser="/signup" class="button button-positive button-block button-clear">Or create an account</a>
+    </form>
+</ion-content>

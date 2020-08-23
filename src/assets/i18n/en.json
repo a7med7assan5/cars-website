@@ -1,0 +1,20 @@
+{
+    "ARABIC": "Arabic",
+    "CARS": "Cars",
+    "CHANGEEMAIL": "Change Email",
+    "CHANGEPASSWORD": "Change Password",
+    "CONFIRMEMAIL": "Confirm Email",
+    "CONFIRMPASSWORD": "Confirm Password",
+    "ENGLISH": "English",
+    "FRENCH": "French",
+    "HOME": "Home",
+    "ID": "ID",
+    "LANGUAGES": "Languages",
+    "LOGIN": "Login",
+    "LOGOUT": "Logout",
+    "NEWEMAIL": "New Email",
+    "NEWPASSWORD": "New Password",
+    "OLDPASSWORD": "Old Password",
+    "PASSWORD": "Password",
+    "SETTINGS": "Settings"
+}

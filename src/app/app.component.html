@@ -1,3 +1,21 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+    <ion-router-outlet></ion-router-outlet>
+
+    <!-- Tabs -->
+    <ion-tabs>
+        <ion-tab-bar slot="bottom">
+            <ion-tab-button tab="home">
+                <ion-icon name="home-outline"></ion-icon>
+                <ion-label>{{ 'HOME' | translate}}</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="cars">
+                <ion-icon name="book-outline"></ion-icon>
+                <ion-label>{{ 'CARS' | translate}}</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="settings">
+                <ion-icon name="settings-outline"></ion-icon>
+                <ion-label>{{ 'SETTINGS' | translate}}</ion-label>
+            </ion-tab-button>
+        </ion-tab-bar>
+    </ion-tabs>
 </ion-app>
